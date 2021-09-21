@@ -8,15 +8,15 @@ This application will enable users search for books. For implementation we will 
 
 ## Table of Content
 
-1. [Project Description](https://github.com/Brondchux/hw20-my-portfolio-in-react#project-description)
-2. [Author Info](https://github.com/Brondchux/hw20-my-portfolio-in-react#author-info)
-3. [User Story](https://github.com/Brondchux/hw20-my-portfolio-in-react#user-story)
-4. [Acceptance Criteria](https://github.com/Brondchux/hw20-my-portfolio-in-react#acceptance-criteria)
-5. [Mock-Up Preview](https://github.com/Brondchux/hw20-my-portfolio-in-react#mock-up-preview)
-6. [Useful Links](https://github.com/Brondchux/hw20-my-portfolio-in-react#useful-links)
-7. [Tech Stack](https://github.com/Brondchux/hw20-my-portfolio-in-react#tech-stack)
-8. [Credits](https://github.com/Brondchux/hw20-my-portfolio-in-react#credits)
-9. [License](https://github.com/Brondchux/hw20-my-portfolio-in-react#license)
+1. [Project Description](https://github.com/Brondchux/hw21-book-search-engine#project-description)
+2. [Author Info](https://github.com/Brondchux/hw21-book-search-engine#author-info)
+3. [User Story](https://github.com/Brondchux/hw21-book-search-engine#user-story)
+4. [Acceptance Criteria](https://github.com/Brondchux/hw21-book-search-engine#acceptance-criteria)
+5. [Mock-Up Preview](https://github.com/Brondchux/hw21-book-search-engine#mock-up-preview)
+6. [Useful Links](https://github.com/Brondchux/hw21-book-search-engine#useful-links)
+7. [Tech Stack](https://github.com/Brondchux/hw21-book-search-engine#tech-stack)
+8. [Credits](https://github.com/Brondchux/hw21-book-search-engine#credits)
+9. [License](https://github.com/Brondchux/hw21-book-search-engine#license)
 
 ---
 
@@ -90,8 +90,8 @@ A user can view their saved books on a separate page, as shown in the following 
 
 ## Useful Links
 
-1. 🗂 [Click me to view github repository for this project](https://github.com/Brondchux/hw20-my-portfolio-in-react/)
-2. 🌍 [Click me to view deployed application via github pages](https://brondchux.github.io/hw20-my-portfolio-in-react/)
+1. 🗂 [Click me to view github repository for this project](https://github.com/Brondchux/hw21-book-search-engine/)
+2. 🌍 [Click me to view deployed application via heroku pages](https://brondchux.github.io/hw20-my-portfolio-in-react/)
 
 ---
 
