@@ -31,15 +31,28 @@ const resolvers = {
 			const token = signToken(user);
 			return { token, user };
 		},
-		saveBook: async (parent, { user, body }) => {
+		saveBook: async (parent, args, context) => {
 			try {
-				const book = await User.findOneAndUpdate(
-					{ username: user._id },
-					{ $addToSet: { savedBooks: body } },
+				const addToUserBooks = await User.findOneAndUpdate(
+					{ _id: context.user._id },
+					{ $addToSet: { savedBooks: args } },
 					{ new: true, runValidators: true }
 				);
+				return addToUserBooks;
 			} catch (e) {
 				return `Unable to saveBook due to error: ${e}`;
+			}
+		},
+		deleteBook: async (parent, args, context) => {
+			try {
+				const removeFromUserBooks = await User.findOneAndUpdate(
+					{ _id: context.user._id },
+					{ $pull: { savedBooks: { bookId: args.bookId } } },
+					{ new: true, runValidators: true }
+				);
+				return removeFromUserBooks;
+			} catch (e) {
+				return `Unable to deleteBook due to error: ${e}`;
 			}
 		},
 	},
