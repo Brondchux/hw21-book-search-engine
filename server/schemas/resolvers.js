@@ -31,6 +31,17 @@ const resolvers = {
 			const token = signToken(user);
 			return { token, user };
 		},
+		saveBook: async (parent, { user, body }) => {
+			try {
+				const book = await User.findOneAndUpdate(
+					{ username: user._id },
+					{ $addToSet: { savedBooks: body } },
+					{ new: true, runValidators: true }
+				);
+			} catch (e) {
+				return `Unable to saveBook due to error: ${e}`;
+			}
+		},
 	},
 };
 
